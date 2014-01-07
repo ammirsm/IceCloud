@@ -1,0 +1,130 @@
+        @font-face {
+            font-family: 'BYekan';
+            src: url('BYekan.eot?#') format('eot'),  /* IE6–8 */
+            url('BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+            url('BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+        }
+        body{
+          background-color: #1C5878;
+          overflow:hidden;
+        }
+          #Box{
+            position:absolute;
+            width: 668px;
+            height:379px;
+            margin:-190px 0 0 -330px;
+            top:50%;
+            left:50%; 
+          }
+          .LOGO{
+            width:298.5px;
+            height:162.75px;
+            width:298.5px;
+            height:162.75px;
+            margin:0 auto 30px auto;
+            display: block;
+            png-shadow: 0px 0px 10px #FFF;
+            -o-filter: drop-shadow(0px 0px 10px #FFF); 
+            -moz-filter: drop-shadow(0px 0px 10px #FFF);
+            -webkit-filter: drop-shadow(0px 0px 10px #FFF);
+            filter:         drop-shadow(0px 0px 10px #FFF);
+            transition:width 1s, height 1s, -webkit-transform 1s,-webkit-filter 1s;
+            -webkit-transition:width 1s, height 1s, -webkit-transform 1s,-webkit-filter 1s; /* Safari */
+          
+          } 
+           .LOGO:hover{ 
+            png-shadow: 0px 0px 30px #FFF;     
+            -o-filter: drop-shadow(0px 0px 30px #FFF); 
+            -moz-filter: drop-shadow(0px 0px 30px #FFF);
+            -webkit-filter: drop-shadow(0px 0px 30px #FFF);
+            filter:         drop-shadow(0px 0px 30px #FFF);
+            
+          }
+          .Item{
+            width:112px;
+            height:112px;
+            margin:10px;
+            border-radius:50%;
+            float:left;
+            background-image:url('icons-hover.png');
+            transition:  transform 1.5s;
+            transition:  background-image 1.5s;
+            -webkit-transition: -webkit-transform 1.5s;
+            -webkit-transition: background-image 1.5s;
+            -webkit-transition:-webkit-transform 1.5s,background-image 1.5s;
+            -o-transition-property:-o-transform,background-image;
+            -o-transition-duration:1.5s,1.5s;
+            transition-property:transform,background-image;
+            transition-duration:1.5s,1.5s;
+
+           }
+          .Item:hover{
+              box-shadow:0px 0px 5px #222;
+              border:solid 4px white;
+              background-image:url('icons.png');
+              transform: rotateX(360deg);
+              -webkit-transform: rotateX(360deg); /* Safari and Chrome */
+             -o-transform: rotateX(360deg); /* Opera */
+            -moz-transform: rotateX(360deg); /* Mozila */
+           }
+          .ItemText{
+            width:132px;
+            height:132px;
+            float:left;
+            text-align:center;
+            font-family: 'BYekan';
+            font-size:25px;
+            color: #FFFFFF;
+            box-shadow: box-shadow:0px 0px 5px #222;
+               
+           }
+          #Portal{
+            background-position:0 0;
+          /*background-color:#ff679a;**/
+            /*background-color:#2576a1;*/  
+            background-color:#abbdc4;        }
+          #Blog{
+            background-position:-112px 0;
+            /*background-color:#ff9934;*/
+           background-color:#abbdc4;  
+          }
+          #AboutUs{
+            background-position:-224px 0;
+            /*background-color:#94cb1f;*/
+           background-color:#abbdc4;  
+          }
+          #Unlimited{
+            background-position:-336px 0;
+            /*background-color:#e74c3c;*/
+           background-color:#abbdc4;
+          }
+          #Other{
+            background-position:-448px 0;
+/*            background-color: #ffd105;*/
+            background-color:#abbdc4;
+            }
+            #PortalText{
+              opacity:0;
+            }
+            #BlogText{
+              opacity:0;
+            }
+            #AboutUsText{
+             opacity:0; 
+            }
+            #UnlimitedText{
+              opacity:0;
+            }
+            #OtherText{
+              opacity:0;
+            }
+            #copy{
+            font-family: Century Gothic;
+            color: #FFFFFF;
+            text-decoration: none;
+            position:fixed;
+            left:calc( ( 100% - 304px ) / 2);
+            bottom:0;
+            margin:0 auto;
+            text-align:center;
+            }
